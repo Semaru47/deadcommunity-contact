@@ -1,48 +1,56 @@
-# Contact Stack (Matrix / Element / LiveKit)
+# Contact Stack
 
-> DeadCommunity product showcase — **no source code**.
+> ◆ DeadCommunity product card — **no source code · no API keys**.
 
-**Role:** Self-hosted chat & realtime voice stack
+### ◆ Role
 
-Our own communication layer: Matrix Synapse homeserver, Element Web client, LiveKit realtime media, and Coturn for NAT traversal.
+**Self-hosted chat & realtime voice**
 
-## Live
+Owned communication layer: Matrix Synapse, Element Web, LiveKit realtime media, Coturn NAT traversal.
 
-**[https://deadcommunity.com](https://deadcommunity.com)**
+### ◆ Live
 
-## What it does
+↳ **[https://deadcommunity.com](https://deadcommunity.com)**
 
-- Independent of Discord for core chat/voice ownership
-- Element + Synapse for messaging
-- LiveKit + Coturn for realtime audio/video paths
+### ◆ What it does
 
-## Who it’s for
+▸ Independent of Discord for core chat/voice ownership
+▸ Element + Synapse for messaging
+▸ LiveKit + Coturn for realtime A/V paths
 
-Community / team realtime communication
+### ◆ Highlights
 
-## Stack (high level)
+○ Full self-hosted contact stack
+○ Complements Discord bots
+○ No secrets in this repo
+
+### ◆ Who it’s for
+
+▸ Community / team realtime communication
+
+### ◆ Stack (high level)
 
 `Matrix Synapse` · `Element Web` · `LiveKit` · `Coturn` · `Docker`
 
-## Status
+### ◆ Status
 
-- **Production:** running on DeadCommunity infrastructure  
-- **Source:** private (not published)  
-- **Operator model:** idea → UI/API → Docker deploy → uptime  
+| ▣ | ○ |
+|:--|:--|
+| Production | Running on DeadCommunity infrastructure |
+| Source | **Private** (not published) |
+| Public surface | This README + live URL only |
+| Operator model | ■ scope → ■ build → ■ containerize → ■ hostname → ■ iterate |
 
+### ◆ Policy
+
+| Included | Not included |
+|:---------|:-------------|
+| Purpose · live link · stack overview | Application source |
+| High-level architecture notes | `.env` · secrets · API keys · tokens |
+| Operator story | Production private configs |
 
 ---
 
-## About this repository
-
-This is a **public product card**, not a source dump.
-
-| Included | Not included |
-|----------|--------------|
-| What the product is | Application source code |
-| Live URL (when public) | `.env`, secrets, API keys |
-| High-level stack | Production private configs |
-
-Index of all products: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
-Profile: [github.com/Semaru47](https://github.com/Semaru47) · Site: [deadcommunity.com](https://deadcommunity.com)
-
+↳ Index: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
+↳ Profile: [github.com/Semaru47](https://github.com/Semaru47)  
+↳ Brand: [deadcommunity.com](https://deadcommunity.com)
